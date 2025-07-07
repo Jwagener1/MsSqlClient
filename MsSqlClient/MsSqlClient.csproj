@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsPackable>true</IsPackable>
+    <Title>MsSqlClient</Title>
+    <Authors>Jonathan System</Authors>
+    <Company>Jonathan System</Company>
+    <Description>A simple, modern, and testable SQL client library for .NET, built on top of Microsoft.Data.SqlClient.</Description>
+    <PackageProjectUrl>https://github.com/Jonathan-System/MsSqlClient</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Jonathan-System/MsSqlClient</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>sql-client;mssql;sql-server</PackageTags>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE" Pack="true" PackagePath="" />
+    <None Include="..\README.md" Pack="true" PackagePath="" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="6.0.2" />
+  </ItemGroup>
+
+</Project>
